@@ -2,30 +2,56 @@
 <html>
 <head>
 	<meta charset="UTF-8">
-	<title>Mi primera página web</title>
+	<title>Portafolio AriLit</title>
 </head>
-<body>
+<body bgcolor="#dbcdf2">
+	
+	<header>
+		<h1>Portafolio de Ariel Litmanovich</h1>
+	</header>
+	
 	<nav>
 		<ul>
-			<li>Info</li>
-			<li>Contacto</li>
-			<li>Etc</li>
+			<a href="./Sobre_mi.html"><li>Sobre Mi</li></a>
+			<a href="./Proyectos.html"><li>Proyectos</li></a>
+			<a href="./Contacto.html"><li>Contacto</li></a>
 		</ul>
 	</nav>
-	<h1>Futuro programador en Desarrollo</h1>
-	<h2>Ariel Limanovich</h2>
-	<section>
-		<article>
-		Artículo 1	
-		</article>
-		
-		<article>
-		Artículo 2	
-		</article>
 
+	<section class=info>
 		<article>
-		Artículo 3	
+			<a href="./Sobre_mi.html"><h2>Sobre Mi</h2></a>
+			<img src="Imagenes/Trabajando.png" alt="Foto Trabajando" title="foto mia" height="200">
 		</article>
 	</section>
+
+	<section>
+		<article>
+			<a href="./Proyectos.html"><h2>Proyectos</h2></a>
+			<video src="Video/movie.mp4" controls autoplay loop="infinite"></video>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. </p>
+		</article>
+	</section>
+
+	<section>
+		<article>
+			<a href="./Contacto.html" title="click aca para llenar el formulario"><h2>Contacto</h2></a>
+			<form>
+					<legend id="mail">
+						<label for="mail">E-mail</label>
+						<input type="mail" id="mail" name="mail">
+					</legend>
+				
+			</form>
+			
+		</article>
+	</section>
+	<br>
+	<footer>
+			<a href="./Sobre_mi.html">Sobre Mi</a>
+			<a href="./Proyectos.html">Proyectos</a>
+			<a href="./Contacto.html">Contacto</a>
+	</footer>
 </body>
 </html>
